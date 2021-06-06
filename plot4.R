@@ -38,7 +38,7 @@ with (df, {
     plot(nDate, Global_active_power, type='l', xlab = "", ylab='Global Active Power', xaxt='n')
     axis.POSIXct(side=1, x=df$nDate, format="%a", labels = TRUE)
     
-    plot(nDate, Voltage, type='l', xlab = "datetime", ylab='Global Active Power', xaxt='n')
+    plot(nDate, Voltage, type='l', xlab = "datetime", ylab='Voltage', xaxt='n')
     axis.POSIXct(side=1, x=df$nDate, format="%a", labels = TRUE)
     
     
